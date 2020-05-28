@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/detail/detail",
+    "pages/out/out",
+    "pages/outover/outover",
+    "pages/answer/answer",
+    "pages/answerover/answerover",
+    "pages/outrecord/outrecord",
+    "pages/outrecord/lookproblem/lookproblem",
+    "pages/answerrecord/answerrecord",
+    "pages/component/component"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#140f24",
+    "navigationBarTitleText": "超级默契",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}
