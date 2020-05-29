@@ -22,7 +22,7 @@ const formatNumber = (n) => {
   return n[1] ? n : "0" + n;
 };
 
-// 重新请 session_key 并赋值为全局
+// 重新获取 session_key 并赋值为全局
 const getLogin = (callback) => {
   wx.login({
     success: (res) => {
