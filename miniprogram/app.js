@@ -30,10 +30,11 @@ App({
         // 获取 openid and session_key
         wx.cloud.callFunction({
           name: "login",
+          data,
           complete: (res) => {
-            console.log("云函数获取到的openid: ", res.result.openid);
-            this.globalData.session_key = res.result.openid;
-            this.getUserInfo(res.result.openid);
+            console.log("云函数返回: ", res);
+            this.globalData.session_key = res.result.session_key;
+            this.getUserInfo(res.result.session_key);
           },
         });
         // request(url, data, method, (res) => {
